@@ -7,8 +7,8 @@ require 'json'
 
 # Namespace for RspecApiDocumentation
 module RspecApiDocumentation
+  VERSION = "6.6.6"
   extend ActiveSupport::Autoload
-
   require 'rspec_api_documentation/railtie' if defined?(Rails::Railtie)
   include ActiveSupport::JSON
 
